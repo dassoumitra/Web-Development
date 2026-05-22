@@ -1,0 +1,51 @@
+/* p{
+  color: aqua;
+} */
+body{
+  background-color: coral;
+}
+
+.head{
+  color: darkblue;
+}
+
+#bglime{
+  background-color: aqua;
+}
+
+p{
+  color: white;
+}
+
+#para{
+  color: green;
+}
+
+#h2{
+  color: red;
+}
+
+#p3{
+  color: black;
+  font-size: 20px;
+}
+
+ul > li:first-child > a{
+  background: yellow;
+}
+
+ul li:nth-child(2) a{
+  background: blue;
+}
+
+ul li{
+  color: white;
+}
+
+ol li:nth-child(2){
+  color: blue;
+}
+    
+ol li:nth-child(3){
+  color: red;
+}
