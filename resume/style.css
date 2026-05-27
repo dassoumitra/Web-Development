@@ -1,0 +1,71 @@
+.card{
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #2563eb;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+.edu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.edu-header h3{
+  font-size: 20px;
+  color: #111827;
+}
+.edu-header span{
+  color: #6b7280;
+  font-size: 14px;
+}
+.card p{
+  margin-bottom: 8px;
+  color: #4b5563;
+}
+.card:hover{
+  transform: translateY(-4px);
+}
+.project-header{
+  margin-bottom: 15px;
+}
+.project-header h3 a{
+  text-decoration: none;
+  color: #111827;
+  font-size: 27px;
+  font-weight: 600;
+}
+.project-header h3 a:hover{
+  color: #2563eb;
+}
+.card ul{
+  padding-left: 20px;
+}
+.card ul li{
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #4b5563;
+}
+header{
+  border-bottom: 1px solid;
+}
+section{
+  border-top: 1px solid;
+}
+
+@media(max-width:768px){
+
+   body{
+      padding:20px;
+   }
+
+   .container{
+      padding:25px;
+   }
+
+   h1{
+      font-size:32px;
+   }
+}
