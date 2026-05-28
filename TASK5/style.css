@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+}
+
+nav{
+  background-color:whitesmoke;
+  padding: 15px 40px;
+}
+.logo{
+  display: inline-block;
+  font-size: 24px;
+  color: black;
+  font-weight:bold;
+  float: left;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 350px;
+}
+
+ul li{
+  display: inline-block;
+  margin: 0px 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(19, 71, 214);
+  font-size: 18px;
+}
+
+.user{
+    width: 120px;
+    height: 55px;
+
+    background-color: #eef7fb;
+
+    color: #63c5ff;
+
+    text-align: center;
+    line-height: 55px;
+
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+.user:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.hero{
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
+
+}
+.left{
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.left h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.left h1 span{
+  display: block;
+}
+.left h1 span:nth-child(3){
+  color: #1e40af;
+}
+.left p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.left button{
+  padding: 15px 25px;
+  color: white;
+  background-color: #1e40af;
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+
+.right{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.right img{
+  width: 90%;
+  height: 500px;
+  border-radius: 10px;
+}
+
